@@ -17,11 +17,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         webView = (WebView) findViewById(R.id.web_view);
-        //String htmlString = "<html><body><h1>Hello, This is a simple WebView</h1>" +
-         //       "<h1>Heading 1</h1><h2>Heading 2</h2><h3>Heading 3</h3>" +
-           //     "<p>This is a sample paragraph.</p>" +
-             //   "</body></html>";
-        //webView.loadData(htmlString, "text/html", "UTF-8");
+        /*String htmlString = "<html><body><h1>Hello, This is a simple WebView</h1>" +
+                "<h1>Heading 1</h1><h2>Heading 2</h2><h3>Heading 3</h3>" +
+                "<p>This is a sample paragraph.</p>" +
+                "</body></html>";
+        webView.loadData(htmlString, "text/html", "UTF-8");*/
 
         webView.setWebViewClient(new CustomWebViewClient());
         webView.getSettings().setJavaScriptEnabled(true);
